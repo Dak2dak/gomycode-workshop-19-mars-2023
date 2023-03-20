@@ -1,4 +1,4 @@
-const apiKey = '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' //La clé de l'API openai
+const apiKey = '' //La clé de l'API openai
 const chatWindow = document.getElementById("chat-window") //Sélectionne la div dans laquelle devra se dérouler tout le chat
 const Btn = document.getElementById('btn') //Sélectionne le bouton d'envoi des questions de l'utilisateur
 
