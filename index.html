@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>WS-ChatGPT</title>
+</head>
+<body>
+    <div id="container">
+
+        <!-- CHAT WINDOW -->
+        <div class="bot-section">
+            <div class="bot-header">
+                <img src="/images/friendly-chatbot.jpg" alt="">
+                <h4>My personal chatMachine</h4>
+            </div>
+            <!-- This is the chat window -->
+            <div id="chat-window"></div>
+        </div>
+
+        <!-- MESSAGE WINDOW -->
+        <div id="user-container">
+            <input type="text" value="" id="user-input" autocomplete="off">
+            <button id="btn" type="submit"><i class="fa-sharp fa-regular fa-paper-plane"></i></button>
+        </div>
+
+    </div>
+
+    <!-- https://cdnjs.com/libraries/axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

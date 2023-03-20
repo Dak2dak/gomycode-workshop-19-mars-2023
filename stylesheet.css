@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    padding: 10px 0;
+    overflow: hidden;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to top, white, black);
+}
+
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    max-width: 600px;
+}
+
+.bot-header{
+    padding: 10px 0;
+    text-align: center;
+    background-color: #042444;
+}
+
+.bot-header img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bot-header h4 {
+    color: #fff;
+}
+
+#chat-window {
+    height: 70vh;
+    padding: 10px 15px;
+}
+
+
+
+
+#user-container {
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+#user-input {
+    outline: 0;
+    border: none;
+    color: #042444;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #fff;
+}
+
+#btn {
+    border: none;
+    background-color: #042444;
+}
+
+#btn i {
+    color: #fff;
+    font-size: 25px;
+}
+
+#input-message {
+    padding: 3px 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.chatbot-answer {
+    background: #042444;
+    color: #fff;
+    margin: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 20px 20px 0 20px;
+}
+
+.user-message {
+    padding: 10px;
+    margin: 15px;
+    color: #fff;
+    position: relative;
+    background: #619eda;
+    display: inline-block;
+    border-radius: 0 20px 20px 20px;
+} 
+
+
+
